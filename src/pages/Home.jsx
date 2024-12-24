@@ -58,6 +58,23 @@ const Home = () => {
               />
             </motion.div>
           </motion.div>
+          <motion.div className="flex items-center justify-left bottom-0 w-full p-4">
+            <a
+              href="https://www.fasie.ru/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex items-center"
+            >
+              <img
+                src="./fasie-logo.png"
+                alt="Фонд Содействия Инновациям"
+                className="h-16 w-16 object-contain mr-4"
+              />
+              <p className="text-gray-800 text-base font-light">
+                проект поддержан Фондом Содействия Инновациям
+              </p>
+            </a>
+          </motion.div>
         </motion.section>
       )}
     </AnimatePresence>
